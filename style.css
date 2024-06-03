@@ -1,11 +1,16 @@
-body{
+body {
     background-color: lightblue;
+    /* this property shows the background color of the body */
 }
-h1{
+
+h1 {
     color: white;
     text-align: center;
+    /* the text color is white for h1 and text would be align at center */
 }
-p{
+
+p {
     font-family: cursive;
-    font-size: 20px ;
+    font-size: 20px;
+    /* font family means the style of the handwriting and font size would be 20px. */
 }
