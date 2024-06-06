@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selectors</title>
     <link rel="stylesheet" href="selector.css">
+    <style>
+        div li {
+            background-color: chocolate;
+        }
+    </style>
 </head>
 
 <body>
@@ -24,6 +29,25 @@
     </ol>
     <p class="cake"> This is a paragraph.</p>
     <h3 id="a" class="cake">Hello World!</h3>
+    <h2>Combinators</h2>
+    <p>A combinator is something that explains the relationship between the selectors.</p>
+    <div>
+        There are four different combinators in CSS:
+        <ul>
+            <li>descendant selector (space)</li>
+            <li>child selector (>)</li>
+            <li>adjacent sibling selector (+)</li>
+            <li>general sibling selector (~)</li>
+        </ul>
+    </div>
+    <h2>Descendant Selector-The descendant selector matches all elements that are descendants of a specified element.
+    </h2>
+    <h2>Child Selector (>)-The child selector selects all elements that are the children of a specified element.</h2>
+    <h2>Adjacent Sibling Selector (+)-The adjacent sibling selector is used to select an element that is directly after
+        another specific element.Sibling elements must have the same parent element, and "adjacent" means "immediately
+        following".</h2>
+    <h2>General Sibling Selector (~)-The general sibling selector selects all elements that are next siblings of a
+        specified element.</h2>
 </body>
 
 </html>

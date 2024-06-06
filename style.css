@@ -1,11 +1,15 @@
 body {
     background-color: lightblue;
     /* this property shows the background color of the body */
+    background-image: url("https://rukminim2.flixcart.com/image/750/900/ktvucnk0/painting/l/b/j/34-1-imcan20078-jul-imaging-canvas-original-imag742huztckmfv.jpeg?q=20&crop=false");
+    background-repeat: no-repeat    ;
+    /* background image is use for ets the background image for an tag*/
 }
 
 h1 {
     color: white;
     text-align: center;
+    background-color: palevioletred;
     /* the text color is white for h1 and text would be align at center */
 }
 
@@ -14,7 +18,10 @@ p {
     font-size: 20px;
     color: red;
     text-align: center;
+    background-color: chartreuse;
     /* font family means the style of the handwriting and font size would be 20px. */
+
 }
+
 
 
