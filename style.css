@@ -5,14 +5,12 @@ body {
     background-repeat: no-repeat;
     /* background image is use for ets the background image for an tag*/
 }
-
 h1 {
     color: white;
     text-align: center;
     background-color: palevioletred;
     /* the text color is white for h1 and text would be align at center */
 }
-
 p {
     font-family: cursive;
     font-size: 20px;
@@ -22,35 +20,28 @@ p {
     /* font family means the style of the handwriting and font size would be 20px. */
 
 }
-
 div.gallery {
     border: 1px solid #ccc;
 }
-
 div.gallery:hover {
     border: 1px solid #777;
 }
-
 div.gallery img {
     width: 100%;
     height: auto;
 }
-
 div.desc {
     padding: 15px;
     text-align: center;
 }
-
 * {
     box-sizing: border-box;
 }
-
 .responsive {
     padding: 0 6px;
     float: left;
     width: 24.99999%;
 }
-
 @media only screen and (max-width: 700px) {
 
     /*media only screen means that it is for all media like phone ,laptop who have max:width:700 that screen can be there or other media screen cannot be possible.*/
@@ -60,13 +51,11 @@ div.desc {
         margin: 6px 0;
     }
 }
-
 @media only screen and (max-width: 500px) {
     .responsive {
         width: 100%
     }
 }
-
 .clearfix:after {
     content: "";
     display: table;
