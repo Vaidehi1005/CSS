@@ -2,7 +2,7 @@ body {
     background-color: lightblue;
     /* this property shows the background color of the body */
     background-image: url("https://rukminim2.flixcart.com/image/750/900/ktvucnk0/painting/l/b/j/34-1-imcan20078-jul-imaging-canvas-original-imag742huztckmfv.jpeg?q=20&crop=false");
-    background-repeat: no-repeat    ;
+    background-repeat: no-repeat;
     /* background image is use for ets the background image for an tag*/
 }
 
@@ -23,5 +23,52 @@ p {
 
 }
 
+div.gallery {
+    border: 1px solid #ccc;
+}
 
+div.gallery:hover {
+    border: 1px solid #777;
+}
 
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+
+    /*media only screen means that it is for all media like phone ,laptop who have max:width:700 that screen can be there or other media screen cannot be possible.*/
+    /* media queries are fo the screen who have max width or the screen that is capable of the website and medai queries is availabe on the all screen websites. */
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
