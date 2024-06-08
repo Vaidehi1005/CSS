@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="border.css">
+</head>
+
+<body>
+    <i> CSS Border Images
+        With the CSS border-image property, you can set an image to be used as the border around an element.
+        The property has three parts:
+        <li> The image to use as the border</li>
+        <li> Where to slice the image</li>
+        <li>Define whether the middle sections should be repeated or stretched</li>
+    </i>
+
+    Here, the middle sections of the image are repeated to create the border:
+    <h1>The border-image Property</h1>
+
+    <p>Here, the middle sections of the image are repeated to create the border:</p>
+    <p id="borderimg">border-image: url(border.png) 30 round;</p>
+
+    <p>Here is the original image:</p><img
+        src="https://images.rawpixel.com/image_350/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0xNTMtdG9vbi0wNl8xLmpwZw.jpg">
+    <p><strong>Note:</strong> Internet Explorer 10, and earlier versions, do not support the border-image property.</p>
+    -->
+    the middle sections of the image are stretched to create the border:
+    <h1>The border-image Property</h1>
+
+    <p>Here, the middle sections of the image are stretched to create the border:</p>
+    <p id="borderimg">border-image: url(border.png) 30 stretch;</p>
+
+    <p>Here is the original image:</p><img
+        src="https://global.discourse-cdn.com/sitepoint/original/3X/1/8/1872fef2caaeef17e40d7e0ddeb4dbda2f91f788.png">
+    <p><strong>Note:</strong> Internet Explorer 10, and earlier versions, do not support the border-image property.</p>
+    <h1>The border-image Property</h1>
+
+    <p id="borderimg1">border-image:
+        url(https://png.pngtree.com/png-clipart/20220628/ourmid/pngtree-black-minimalist-border-png-image_5329495.png)
+        50 round;</p>
+    <p id="borderimg2">border-image:
+        url(https://png.pngtree.com/png-clipart/20220628/ourmid/pngtree-black-minimalist-border-png-image_5329495.png)
+        20% round;</p>
+    <p id="borderimg3">border-image:
+        url(https://png.pngtree.com/png-clipart/20220628/ourmid/pngtree-black-minimalist-border-png-image_5329495.png)
+        10% round;</p>
+
+    <p><strong>Note:</strong> Internet Explorer 10, and earlier versions, do not support the border-image property.</p>
+</body>
+
+</html>
