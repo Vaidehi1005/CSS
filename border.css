@@ -1,0 +1,27 @@
+#borderimg {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(https://images.rawpixel.com/image_350/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0xNTMtdG9vbi0wNl8xLmpwZw.jpg) 30 round; 
+ } 
+ #borderimg { 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(https://global.discourse-cdn.com/sitepoint/original/3X/1/8/1872fef2caaeef17e40d7e0ddeb4dbda2f91f788.png) 30 stretch;
+  } 
+#borderimg1 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(https://png.pngtree.com/png-clipart/20220628/ourmid/pngtree-black-minimalist-border-png-image_5329495.png) 50 round;
+}
+
+#borderimg2 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(https://png.pngtree.com/png-clipart/20220628/ourmid/pngtree-black-minimalist-border-png-image_5329495.png) 20% round;
+}
+
+#borderimg3 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(https://png.pngtree.com/png-clipart/20220628/ourmid/pngtree-black-minimalist-border-png-image_5329495.png)10% round;
+}
