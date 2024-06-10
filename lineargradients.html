@@ -15,6 +15,7 @@
     1.Linear Gradients (goes down/up/left/right/diagonally)
     2.Radial Gradients (defined by their center)
     3.Conic Gradients (rotated around a center point)
+    
     <h1>CSS Linear Gradients</h1>
     To create a linear gradient you must define at least two color stops. Color stops are the colors you want to render
     smooth transitions among. You can also set a starting point and a direction (or an angle) along with the gradient
@@ -27,6 +28,7 @@
     <h1>Linear Gradient - Left to Right</h1>
     <p>This linear gradient starts red at the left, transitioning to yellow (to the right):</p>
     <div id="grad1"></div>
+    
     <b>Direction - Diagonal</b>
     <p><b> You can make a gradient diagonally by specifying both the horizontal and vertical starting positions.The
             following example shows a linear gradient that starts at top left (and goes to bottom right). It starts red,
@@ -34,6 +36,7 @@
     <h1>Linear Gradient - Diagonal</h1>
     <p>This linear gradient starts red at top left, transitioning to yellow (at bottom right):</p>
     <div id="grad1"></div>
+    
     <b>Using Angles</b><br>
     If you want more control over the direction of the gradient, you can define an angle, instead of the predefined
     directions (to bottom, to top, to right, to left, to bottom right, etc.). A value of 0deg is equivalent to "to top".
@@ -43,6 +46,7 @@
     <div id="grad2" style="text-align:center;">90deg</div><br>
     <div id="grad3" style="text-align:center;">180deg</div><br>
     <div id="grad4" style="text-align:center;">-90deg</div>
+    
     <h1>Linear Gradients - Multiple Color Stops</h1>
     <p><strong>Note:</strong> Color stops are spaced evenly when no percents are specified.</p>
     <h2>3 Color Stops (evenly spaced):</h2>
@@ -54,9 +58,7 @@
     <div id="grad1" style="text-align:center;margin:auto;color:#888888;font-size:40px;font-weight:bold">
         Rainbow Background
     </div>
-</body>
-
-</html>
+    
 <b>Using Transparency</b><br>
 <p>CSS gradients also support transparency, which can be used to create fading effects.The following example shows a
     linear gradient that starts from the left. It starts fully
@@ -66,22 +68,18 @@
     function can be a value from 0 to 1, and it defines the transparency of the color: 0 indicates full
     transparency, 1 indicates full color (no transparency).</p>
 <div id="grad1"></div>
+    
 <h1>Repeating Linear Gradient</h1>
 <h2>The repeating-linear-gradient() function is used to repeat linear gradients</h2>
-
 <div id="grad1"></div>
-
 <p>A repeating gradient on 45deg axe starting red and finishing green:</p>
 <div id="grad2"></div>
-
 <p>A repeating gradient on 190deg axe starting red and finishing green:</p>
 <div id="grad3"></div>
-
 <p>A repeating gradient on 90deg axe starting red and finishing green:</p>
 <div id="grad4"></div>
-
 <p>A repeating gradient on 45deg axe with solid stripes:</p>
 <div id="grad5"></div>
+    
 </body>
-
 </html>
