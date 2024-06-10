@@ -1,4 +1,4 @@
-/* #example1 {
+#example1 {
     background-image: url(https://gifdb.com/images/high/aesthetic-background-498-x-289-gif-i13h9hg0efgknm77.gif), url(https://d.furaffinity.net/art/cyber-ogurchik/1631193953/1631193761.cyber-ogurchik_2__1_.gif);
     background-position: right bottom, left top;
     background-repeat: no-repeat, repeat;
@@ -15,26 +15,26 @@
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTef5T0vPj0nM0Yn4GHLYobr5PRm_0XyAVBpA&s);
     background-repeat: no-repeat;
     background-size: contain;
-  }
+}
   
-  .div2 {
+.div2 {
     border: 1px solid black;
     height: 120px;
     width: 150px;
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTef5T0vPj0nM0Yn4GHLYobr5PRm_0XyAVBpA&s);
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
   
-  .div3 {
+.div3{
     border: 1px solid black;
     height: 120px;
     width: 150px;
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTef5T0vPj0nM0Yn4GHLYobr5PRm_0XyAVBpA&s);
     background-repeat: no-repeat;
-  } */
-#example1 {
-    background: url(https://gifdb.com/images/high/aesthetic-background-498-x-289-gif-i13h9hg0efgknm77.gif) left top no-repeat, url(https://d.furaffinity.net/art/cyber-ogurchik/1631193953/1631193761.cyber-ogurchik_2__1_.gif) right bottom no-repeat, url(https://techcommunity.microsoft.com/t5/image/serverpage/image-id/469874iFE0D4F020442C5F9/image-size/large?v=v2&px=999) left top repeat;
-    padding: 15px;
-    background-size: 50px, 130px, auto;
-  }
+}
+#example1{
+  background: url(https://gifdb.com/images/high/aesthetic-background-498-x-289-gif-i13h9hg0efgknm77.gif) left top no-repeat, url(https://d.furaffinity.net/art/cyber-ogurchik/1631193953/1631193761.cyber-ogurchik_2__1_.gif) right bottom no-repeat, url(https://techcommunity.microsoft.com/t5/image/serverpage/image-id/469874iFE0D4F020442C5F9/image-size/large?v=v2&px=999) left top repeat;
+  padding: 15px;
+  background-size: 50px, 130px, auto;
+}
