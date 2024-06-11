@@ -1,2 +1,1 @@
-# CSS Practice
- 
+# CSS Projects
