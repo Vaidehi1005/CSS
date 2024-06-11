@@ -16,8 +16,7 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
-  
-.div2 {
+  .div2 {
     border: 1px solid black;
     height: 120px;
     width: 150px;
@@ -25,8 +24,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-  
-.div3{
+  .div3{
     border: 1px solid black;
     height: 120px;
     width: 150px;
