@@ -1,19 +1,16 @@
 body {
     background-image: url("https://t4.ftcdn.net/jpg/05/49/86/39/360_F_549863991_6yPKI08MG7JiZX83tMHlhDtd6XLFAMce.jpg");
 }
-  
 div.ex1 { 
     background-color: lightgreen;
     border: 2px solid black;
     padding: 15px;
-}
-  
+}  
 div.ex2 { 
     background-color: transparent;
     border: 2px solid black;
     padding: 15px;
-} 
-  
+}   
 div {
     color: blue;
     border: 10px solid currentcolor;
