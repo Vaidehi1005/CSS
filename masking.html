@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="masking.css">
+</head>
+
+<body>
+    <h1>The mask-image Property</h1>
+
+<h3>An image with a mask layer image:</h3>
+<div class="mask1">
+<img src="https://cdn.shopify.com/s/files/1/0024/1788/5284/files/clown-fish.jpg" alt="Cinque Terre" width="600" height="400">
+</div>
+
+<h3>Original image:</h3>
+<img src="https://cdn.shopify.com/s/files/1/0024/1788/5284/files/clown-fish.jpg" alt="Cinque Terre" width="600" height="400">
+    <h1>The mask-image Property</h1>
+
+    <h3>An SVG mask layer (formed as a triangle):</h3>
+    <svg width="600" height="400">
+        <!-- this svg creates a container  -->
+        <mask id="svgmask1">
+            <!-- mask creates a mask svg  image for the original images  -->
+            <polygon fill="#ffffff" points="200 0, 400 400, 0 400"></polygon>
+            <!-- here the shape is polygon and it is filled with the white background and this points are given for the making triangle shape -->
+        </mask>
+        <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img_5terre.jpg" mask="url(#svgmask1)"></image>
+        <!-- aa link svg ni web browsers ma support mate che and href vali link to je img aavanu hoi eni ane mask e img par kai mask img aavse e che  -->
+    </svg>
+
+    <h3>Original image:</h3>
+    <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+
+</body>
+
+</html>
